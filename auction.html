@@ -1,0 +1,496 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d6d6d; -webkit-text-stroke: #6d6d6d}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6b0001; -webkit-text-stroke: #6b0001}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #fb0007; -webkit-text-stroke: #fb0007}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0000ff; -webkit-text-stroke: #0000ff}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #137646; -webkit-text-stroke: #137646}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000; min-height: 16.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4d5055; -webkit-text-stroke: #4d5055}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #18702b; -webkit-text-stroke: #18702b}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0e6e6d; -webkit-text-stroke: #0e6e6d}
+    span.s1 {font-kerning: none; background-color: #ecf1f7}
+    span.s2 {font-kerning: none; color: #fb0007; background-color: #ecf1f7; -webkit-text-stroke: 0px #fb0007}
+    span.s3 {font-kerning: none; color: #2a2a2a; background-color: #ecf1f7; -webkit-text-stroke: 0px #2a2a2a}
+    span.s4 {font-kerning: none; color: #000000; background-color: #ecf1f7; -webkit-text-stroke: 0px #000000}
+    span.s5 {font-kerning: none; color: #0000ff; background-color: #ecf1f7; -webkit-text-stroke: 0px #0000ff}
+    span.s6 {font-kerning: none; color: #6b0001; background-color: #ecf1f7; -webkit-text-stroke: 0px #6b0001}
+    span.s7 {font-kerning: none; color: #18702b; background-color: #ecf1f7; -webkit-text-stroke: 0px #18702b}
+    span.s8 {font-kerning: none; color: #093c94; background-color: #ecf1f7; -webkit-text-stroke: 0px #093c94}
+    span.s9 {font-kerning: none; color: #137646; background-color: #ecf1f7; -webkit-text-stroke: 0px #137646}
+    span.s10 {font-kerning: none}
+    span.s11 {font-kerning: none; color: #6f0ec3; background-color: #ecf1f7; -webkit-text-stroke: 0px #6f0ec3}
+    span.s12 {font-kerning: none; color: #0e6e6d; background-color: #ecf1f7; -webkit-text-stroke: 0px #0e6e6d}
+    span.s13 {font-kerning: none; color: #4d5055; background-color: #ecf1f7; -webkit-text-stroke: 0px #4d5055}
+    span.s14 {font-kerning: none; color: #a4450b; background-color: #ecf1f7; -webkit-text-stroke: 0px #a4450b}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">html</span><span class="s4"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s5">"en"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s5">"UTF-8"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s4"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">title</span><span class="s3">&gt;</span><span class="s1">Simple Blind Auction</span><span class="s3">&lt;/</span><span class="s6">title</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">link</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap"</span><span class="s4"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">body</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">font-family:</span><span class="s1"> </span><span class="s7">'Inter'</span><span class="s1">, </span><span class="s8">sans-serif</span><span class="s1">;</span></p>
+<p class="p3"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">background-color:</span><span class="s4"> </span><span class="s8">#f7f9fb</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s6">.card</span><span class="s1"> {</span></p>
+<p class="p6"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s2">box-shadow:</span><span class="s4"> </span><span class="s1">0</span><span class="s4"> </span><span class="s1">10px</span><span class="s4"> </span><span class="s1">15px</span><span class="s4"> </span><span class="s1">-3px</span><span class="s4"> </span><span class="s8">rgba(</span><span class="s1">0</span><span class="s4">, </span><span class="s1">0</span><span class="s4">, </span><span class="s1">0</span><span class="s4">, </span><span class="s1">0.1</span><span class="s8">)</span><span class="s4">, </span><span class="s1">0</span><span class="s4"> </span><span class="s1">4px</span><span class="s4"> </span><span class="s1">6px</span><span class="s4"> </span><span class="s1">-2px</span><span class="s4"> </span><span class="s8">rgba(</span><span class="s1">0</span><span class="s4">, </span><span class="s1">0</span><span class="s4">, </span><span class="s1">0</span><span class="s4">, </span><span class="s1">0.05</span><span class="s8">)</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">.button-primary</span><span class="s4"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">transition:</span><span class="s1"> </span><span class="s8">all</span><span class="s1"> </span><span class="s9">0.2s</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">.button-primary:hover</span><span class="s4"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">transform:</span><span class="s1"> </span><span class="s8">translateY(</span><span class="s9">-1px</span><span class="s8">)</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">box-shadow:</span><span class="s1"> </span><span class="s9">0</span><span class="s1"> </span><span class="s9">4px</span><span class="s1"> </span><span class="s9">6px</span><span class="s1"> </span><span class="s9">-1px</span><span class="s1"> </span><span class="s8">rgba(</span><span class="s9">0</span><span class="s1">, </span><span class="s9">0</span><span class="s1">, </span><span class="s9">0</span><span class="s1">, </span><span class="s9">0.1</span><span class="s8">)</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">.button-secondary</span><span class="s4"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">transition:</span><span class="s1"> </span><span class="s8">all</span><span class="s1"> </span><span class="s9">0.2s</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">.button-secondary:hover</span><span class="s4"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s2">opacity:</span><span class="s1"> </span><span class="s9">0.9</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">style</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s3">&lt;</span><span class="s6">body</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-4 flex items-center justify-center min-h-screen"</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"app"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full max-w-md"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">h1</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-3xl font-bold text-center text-gray-800 mb-6"</span><span class="s3">&gt;</span><span class="s4">Blind Auction House</span><span class="s3">&lt;/</span><span class="s6">h1</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"loading-indicator"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-center p-8 hidden"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-500 mx-auto mb-3"</span><span class="s3">&gt;&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"text-gray-500"</span><span class="s3">&gt;</span><span class="s1">Connecting to the vault...</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"main-content"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"hidden"</span><span class="s3">&gt;</span></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- User Info and Status --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm p-4 mb-4 bg-white rounded-xl card border-l-4 border-indigo-500"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"font-semibold text-gray-700"</span><span class="s3">&gt;</span><span class="s4">Your ID: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"user-id-display"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"font-mono text-xs text-indigo-600 truncate block"</span><span class="s3">&gt;&lt;/</span><span class="s6">span</span><span class="s3">&gt;&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-2 text-gray-500"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span>Status: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"auction-status"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"font-medium text-indigo-700"</span><span class="s3">&gt;&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- Auction Details Card --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-6 bg-white rounded-xl card mb-6"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">h2</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xl font-semibold mb-2 text-gray-800"</span><span class="s3">&gt;</span><span class="s4">Item Up for Bid</span><span class="s3">&lt;/</span><span class="s6">h2</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"item-name-display"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-2xl font-bold text-teal-600 mb-4 break-words"</span><span class="s3">&gt;</span><span class="s4">Loading...</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- Host Controls (Only visible to the host) --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"host-controls"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"space-y-4 hidden pt-4 border-t border-gray-100"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">h3</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-lg font-semibold text-red-600"</span><span class="s3">&gt;</span><span class="s4">Host Controls</span><span class="s3">&lt;/</span><span class="s6">h3</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">input</span><span class="s4"> </span><span class="s2">type</span><span class="s3">=</span><span class="s1">"text"</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"item-name-input"</span><span class="s4"> </span><span class="s2">placeholder</span><span class="s3">=</span><span class="s1">"Enter new item name"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"reset-auction-btn"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full py-3 bg-red-500 text-white rounded-lg button-primary hover:bg-red-600"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Start New Auction / Reset</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"close-auction-btn"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full py-3 bg-orange-500 text-white rounded-lg button-primary hover:bg-orange-600"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Close Bidding</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"reveal-winner-btn"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full py-3 bg-green-600 text-white rounded-lg button-primary hover:bg-green-700 hidden"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Reveal Winner</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- Bidding / Result Card --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"action-card"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"p-6 bg-white rounded-xl card"</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- Bidding Interface (Status: open) --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"bidding-interface"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"space-y-4"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">h2</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"text-xl font-semibold text-gray-800"</span><span class="s3">&gt;</span><span class="s1">Place Your Blind Bid</span><span class="s3">&lt;/</span><span class="s6">h2</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">input</span><span class="s4"> </span><span class="s2">type</span><span class="s3">=</span><span class="s1">"number"</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"bid-amount-input"</span><span class="s4"> </span><span class="s2">placeholder</span><span class="s3">=</span><span class="s1">"Your bid amount (e.g., 50.00)"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full p-3 border border-gray-300 rounded-lg focus:ring-indigo-500 focus:border-indigo-500"</span><span class="s4"> </span><span class="s2">min</span><span class="s3">=</span><span class="s1">"0.01"</span><span class="s4"> </span><span class="s2">step</span><span class="s3">=</span><span class="s1">"0.01"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"submit-bid-btn"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full py-3 bg-indigo-500 text-white rounded-lg button-primary hover:bg-indigo-600"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Submit Bid</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"your-bid-display"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-center text-sm font-medium text-gray-500 pt-2 border-t border-gray-100"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Your current hidden bid: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"font-bold text-indigo-700"</span><span class="s3">&gt;</span><span class="s1">$0.00</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- Closed Message (Status: closed) --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"closed-message"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-center hidden"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xl font-bold text-orange-600 mb-2"</span><span class="s3">&gt;</span><span class="s4">Bidding is CLOSED!</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"text-gray-600"</span><span class="s3">&gt;</span><span class="s1">The host will reveal the results shortly.</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"closed-your-bid"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-medium text-gray-500 mt-4"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Your bid was: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"font-bold text-indigo-700"</span><span class="s3">&gt;&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s1">&lt;!-- Revealed Results (Status: revealed) --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"revealed-results"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-center hidden"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-2xl font-extrabold text-green-700 mb-4"</span><span class="s3">&gt;</span><span class="s4">AUCTION COMPLETE!</span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"space-y-3"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-lg font-semibold text-gray-700"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                            </span>Winning Bid: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"winning-bid-display"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-3xl font-extrabold text-green-600 block"</span><span class="s3">&gt;</span><span class="s4">$0.00</span><span class="s3">&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-lg font-semibold text-gray-700"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                            </span>Winner ID: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"winner-id-display"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"font-mono text-xs text-green-600 block break-words"</span><span class="s3">&gt;&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"revealed-your-bid"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-sm font-medium text-gray-500 mt-6 pt-4 border-t border-gray-100"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Your bid was: </span><span class="s3">&lt;</span><span class="s6">span</span><span class="s1"> </span><span class="s2">class</span><span class="s3">=</span><span class="s5">"font-bold text-indigo-700"</span><span class="s3">&gt;&lt;/</span><span class="s6">span</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"total-bids-count"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xs text-gray-400 mt-2"</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>Total bids submitted: 0</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Custom Modal for Messages (like "no bid submitted") --&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"message-modal"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center p-4 z-50"</span><span class="s4"> </span><span class="s2">onclick</span><span class="s3">=</span><span class="s1">"hideModal()"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-white p-6 rounded-xl card max-w-sm w-full"</span><span class="s4"> </span><span class="s2">onclick</span><span class="s3">=</span><span class="s1">"event.stopPropagation()"</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">h3</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"modal-title"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-xl font-bold mb-3 text-gray-800"</span><span class="s3">&gt;&lt;/</span><span class="s6">h3</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"modal-content"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-gray-600 mb-4"</span><span class="s3">&gt;&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">button</span><span class="s4"> </span><span class="s2">onclick</span><span class="s3">=</span><span class="s1">"hideModal()"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full py-2 bg-indigo-500 text-white rounded-lg button-secondary"</span><span class="s3">&gt;</span><span class="s4">Close</span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">type</span><span class="s3">=</span><span class="s1">"module"</span><span class="s3">&gt;</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s11">import</span><span class="s4"> { initializeApp } </span><span class="s11">from</span><span class="s4"> </span><span class="s1">"https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js"</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">import</span><span class="s1"> { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } </span><span class="s11">from</span><span class="s1"> </span><span class="s7">"https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js"</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">import</span><span class="s1"> { getFirestore, doc, onSnapshot, setDoc, runTransaction, getDoc, setLogLevel } </span><span class="s11">from</span><span class="s1"> </span><span class="s7">"https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js"</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// IMPORTANT: Global variables are provided by the Canvas environment</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">const</span><span class="s1"> appId = </span><span class="s11">typeof</span><span class="s1"> __app_id !== </span><span class="s7">'undefined'</span><span class="s1"> ? __app_id : </span><span class="s7">'default-auction-app-id'</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">const</span><span class="s1"> firebaseConfig = </span><span class="s11">typeof</span><span class="s1"> __firebase_config !== </span><span class="s7">'undefined'</span><span class="s1"> ? </span><span class="s12">JSON</span><span class="s1">.parse(__firebase_config) : </span><span class="s11">null</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">const</span><span class="s1"> initialAuthToken = </span><span class="s11">typeof</span><span class="s1"> __initial_auth_token !== </span><span class="s7">'undefined'</span><span class="s1"> ? __initial_auth_token : </span><span class="s11">null</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">let</span><span class="s1"> app, db, auth;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">let</span><span class="s1"> userId = </span><span class="s11">null</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">let</span><span class="s1"> isAuthReady = </span><span class="s11">false</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s11">const</span><span class="s4"> </span><span class="s12">AUCTION_DOC_PATH</span><span class="s4"> = </span><span class="s1">`/artifacts/</span><span class="s4">${appId}</span><span class="s1">/public/data/auctions/auction_state`</span><span class="s4">;</span></p>
+<p class="p10"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s11">const</span><span class="s4"> </span><span class="s1">AUCTION_DOC_REF</span><span class="s4"> = (db) =&gt; doc(db, </span><span class="s1">AUCTION_DOC_PATH</span><span class="s4">);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span>setLogLevel(</span><span class="s7">'error'</span><span class="s4">); </span><span class="s1">// Set log level to 'error' to avoid excessive logging</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// --- Utility Functions ---</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Shows a custom modal message.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* @param {string} title</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* @param {string} content</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">function</span><span class="s1"> showModal(title, content) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'modal-title'</span><span class="s1">).textContent = title;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'modal-content'</span><span class="s1">).textContent = content;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'message-modal'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'message-modal'</span><span class="s1">).classList.add(</span><span class="s7">'flex'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>window.hideModal = </span><span class="s11">function</span><span class="s1">() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'message-modal'</span><span class="s1">).classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'message-modal'</span><span class="s1">).classList.remove(</span><span class="s7">'flex'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Formats a number as currency.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* @param {number} amount</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* @returns {string}</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">function</span><span class="s1"> formatCurrency(amount) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">if</span><span class="s1"> (</span><span class="s11">typeof</span><span class="s1"> amount !== </span><span class="s7">'number'</span><span class="s1">) </span><span class="s11">return</span><span class="s1"> </span><span class="s7">'$0.00'</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">return</span><span class="s1"> </span><span class="s11">new</span><span class="s1"> </span><span class="s12">Intl</span><span class="s1">.</span><span class="s12">NumberFormat</span><span class="s1">(</span><span class="s7">'en-US'</span><span class="s1">, {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>style: </span><span class="s7">'currency'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>currency: </span><span class="s7">'USD'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>minimumFractionDigits: </span><span class="s14">2</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}).format(amount);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// --- Firebase Initialization and Auth ---</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">/** Initializes Firebase and handles authentication. */</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">async</span><span class="s1"> </span><span class="s11">function</span><span class="s1"> initializeFirebase() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">if</span><span class="s1"> (!firebaseConfig) {</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>console.error(</span><span class="s1">"Firebase config not found. Cannot initialize."</span><span class="s4">);</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s1">'loading-indicator'</span><span class="s4">).innerHTML = </span><span class="s1">'&lt;p class="text-red-500"&gt;Error: Firebase configuration missing.&lt;/p&gt;'</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>app = initializeApp(firebaseConfig);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>db = getFirestore(app);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>auth = getAuth(app);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'loading-indicator'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">try</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">if</span><span class="s1"> (initialAuthToken) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">await</span><span class="s1"> signInWithCustomToken(auth, initialAuthToken);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>} </span><span class="s11">else</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">await</span><span class="s1"> signInAnonymously(auth);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">catch</span><span class="s1"> (error) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Authentication failed:"</span><span class="s1">, error);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'loading-indicator'</span><span class="s1">).innerHTML = </span><span class="s7">`&lt;p class="text-red-500"&gt;Authentication Error: </span><span class="s1">${error.message}</span><span class="s7">&lt;/p&gt;`</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>onAuthStateChanged(auth, (user) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">if</span><span class="s1"> (user) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>userId = user.uid;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>document.getElementById(</span><span class="s7">'user-id-display'</span><span class="s1">).textContent = userId;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>isAuthReady = </span><span class="s11">true</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>document.getElementById(</span><span class="s7">'loading-indicator'</span><span class="s1">).classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>document.getElementById(</span><span class="s7">'main-content'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s1">// Start listening for auction state changes</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>setupRealtimeListener();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>} </span><span class="s11">else</span><span class="s1"> {</span></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s1">// User is signed out (should not happen in this environment)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>userId = </span><span class="s11">null</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>isAuthReady = </span><span class="s11">false</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// --- Firestore Data Operations ---</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Sets up the real-time listener for the auction state.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">function</span><span class="s1"> setupRealtimeListener() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">if</span><span class="s1"> (!db || !isAuthReady) </span><span class="s11">return</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>onSnapshot(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), (docSnap) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">if</span><span class="s1"> (docSnap.exists()) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> data = docSnap.data();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>updateUI(data);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>} </span><span class="s11">else</span><span class="s1"> {</span></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s1">// Document doesn't exist, initialize a default state (only done by the first user)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>initializeAuctionState();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}, (error) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Error listening to auction state:"</span><span class="s1">, error);</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Connection Error"</span><span class="s4">, </span><span class="s1">"Failed to load auction state. Please check your connection."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Initializes the auction state if it doesn't exist.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">async</span><span class="s1"> </span><span class="s11">function</span><span class="s1"> initializeAuctionState() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">try</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">const</span><span class="s1"> docSnap = </span><span class="s11">await</span><span class="s1"> getDoc(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db));</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">if</span><span class="s1"> (!docSnap.exists()) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>console.log(</span><span class="s7">"Initializing auction state..."</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> defaultState = {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>item_name: </span><span class="s7">"Mystery Item"</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>status: </span><span class="s7">'open'</span><span class="s1">, </span><span class="s13">// 'open', 'closed', 'revealed'</span></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                        </span>host_id: userId, </span><span class="s1">// The first user to initialize becomes the host</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>bids: {}, </span><span class="s13">// userId: bidAmount</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>winner_id: </span><span class="s11">null</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>winning_bid: </span><span class="s11">null</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>timestamp: </span><span class="s12">Date</span><span class="s1">.now()</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>};</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">await</span><span class="s1"> setDoc(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), defaultState);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">catch</span><span class="s1"> (error) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Error initializing auction state:"</span><span class="s1">, error);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Resets the auction state (Host only).</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">async</span><span class="s1"> </span><span class="s11">function</span><span class="s1"> resetAuction() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> newItemName = document.getElementById(</span><span class="s7">'item-name-input'</span><span class="s1">).value.trim();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">if</span><span class="s1"> (!newItemName) {</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Missing Item"</span><span class="s4">, </span><span class="s1">"Please enter a name for the item being auctioned."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> newState = {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>item_name: newItemName,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>status: </span><span class="s7">'open'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>host_id: userId,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>bids: {},</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>winner_id: </span><span class="s11">null</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>winning_bid: </span><span class="s11">null</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>timestamp: </span><span class="s12">Date</span><span class="s1">.now()</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>};</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">try</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">await</span><span class="s1"> setDoc(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), newState);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'item-name-input'</span><span class="s1">).value = </span><span class="s7">''</span><span class="s1">;</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Auction Reset"</span><span class="s4">, </span><span class="s1">`New auction for "</span><span class="s4">${newItemName}</span><span class="s1">" is now OPEN!`</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">catch</span><span class="s1"> (error) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Error resetting auction:"</span><span class="s1">, error);</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Error"</span><span class="s4">, </span><span class="s1">"Could not reset auction."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Submits a user's bid.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">async</span><span class="s1"> </span><span class="s11">function</span><span class="s1"> submitBid() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> bidInput = document.getElementById(</span><span class="s7">'bid-amount-input'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> bidAmount = parseFloat(bidInput.value);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">if</span><span class="s1"> (isNaN(bidAmount) || bidAmount &lt;= </span><span class="s14">0</span><span class="s1">) {</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Invalid Bid"</span><span class="s4">, </span><span class="s1">"Please enter a valid bid amount greater than $0.00."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">return</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">// Use a transaction to safely update the nested 'bids' field</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">try</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">await</span><span class="s1"> runTransaction(db, </span><span class="s11">async</span><span class="s1"> (transaction) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> auctionDoc = </span><span class="s11">await</span><span class="s1"> transaction.</span><span class="s11">get</span><span class="s1">(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db));</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">if</span><span class="s1"> (!auctionDoc.exists()) </span><span class="s11">throw</span><span class="s1"> </span><span class="s7">"Auction document does not exist!"</span><span class="s1">;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> data = auctionDoc.data();</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">if</span><span class="s1"> (data.status !== </span><span class="s7">'open'</span><span class="s1">) {</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                        </span></span><span class="s11">throw</span><span class="s4"> </span><span class="s1">"Bidding is closed or already completed!"</span><span class="s4">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s1">// Deep clone the bids map</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> updatedBids = { ...data.bids };</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>updatedBids[userId] = bidAmount;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>transaction.update(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), { bids: updatedBids });</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>showModal(</span><span class="s7">"Bid Submitted"</span><span class="s1">, </span><span class="s7">`Your hidden bid of </span><span class="s1">${formatCurrency(bidAmount)}</span><span class="s7"> has been recorded.`</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>bidInput.value = </span><span class="s7">''</span><span class="s1">; </span><span class="s13">// Clear input after successful bid</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">catch</span><span class="s1"> (error) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Bid submission error:"</span><span class="s1">, error);</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Bid Error"</span><span class="s4">, error.message || </span><span class="s1">"Failed to submit bid. Bidding might be closed."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Closes the auction (Host only).</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">async</span><span class="s1"> </span><span class="s11">function</span><span class="s1"> closeAuction() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">try</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">await</span><span class="s1"> setDoc(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), { status: </span><span class="s7">'closed'</span><span class="s1"> }, { merge: </span><span class="s11">true</span><span class="s1"> });</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Bidding Closed"</span><span class="s4">, </span><span class="s1">"The auction is now closed. Time to check the bids!"</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">catch</span><span class="s1"> (error) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Error closing auction:"</span><span class="s1">, error);</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Error"</span><span class="s4">, </span><span class="s1">"Could not close bidding."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Reveals the winner (Host only).</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">async</span><span class="s1"> </span><span class="s11">function</span><span class="s1"> revealWinner() {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">try</span><span class="s1"> {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">await</span><span class="s1"> runTransaction(db, </span><span class="s11">async</span><span class="s1"> (transaction) =&gt; {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> auctionDoc = </span><span class="s11">await</span><span class="s1"> transaction.</span><span class="s11">get</span><span class="s1">(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db));</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">if</span><span class="s1"> (!auctionDoc.exists()) </span><span class="s11">throw</span><span class="s1"> </span><span class="s7">"Auction document does not exist!"</span><span class="s1">;</span></p>
+<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> data = auctionDoc.data();</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> bids = data.bids || {};</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">const</span><span class="s1"> bidEntries = </span><span class="s12">Object</span><span class="s1">.entries(bids);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">if</span><span class="s1"> (bidEntries.length === </span><span class="s14">0</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>transaction.update(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span>status: </span><span class="s7">'revealed'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span>winner_id: </span><span class="s7">'N/A'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span>winning_bid: </span><span class="s14">0</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>});</span></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                        </span></span><span class="s11">return</span><span class="s4">; </span><span class="s1">// No bids, update and exit</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">let</span><span class="s1"> maxBid = -</span><span class="s14">1</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">let</span><span class="s1"> winnerId = </span><span class="s11">null</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s1">// Find the highest bid</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s11">for</span><span class="s1"> (</span><span class="s11">const</span><span class="s1"> [bidderId, amount] </span><span class="s11">of</span><span class="s1"> bidEntries) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span></span><span class="s11">if</span><span class="s1"> (amount &gt; maxBid) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span>maxBid = amount;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                            </span>winnerId = bidderId;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>transaction.update(</span><span class="s12">AUCTION_DOC_REF</span><span class="s1">(db), {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>status: </span><span class="s7">'revealed'</span><span class="s1">,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>winner_id: winnerId,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                        </span>winning_bid: maxBid,</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>});</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>});</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Winner Revealed!"</span><span class="s4">, </span><span class="s1">"The results are in! Check the app for the winner."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">catch</span><span class="s1"> (error) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>console.error(</span><span class="s7">"Error revealing winner:"</span><span class="s1">, error);</span></p>
+<p class="p9"><span class="s4"><span class="Apple-converted-space">                </span>showModal(</span><span class="s1">"Error"</span><span class="s4">, </span><span class="s1">"Could not reveal winner."</span><span class="s4">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// --- UI Rendering ---</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s13">/**</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* Updates the UI based on the current auction state.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>* @param {Object} data - The auction document data.</span></p>
+<p class="p8"><span class="s1"><span class="Apple-converted-space">         </span>*/</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s11">function</span><span class="s1"> updateUI(data) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> { item_name, status, host_id, bids, winner_id, winning_bid } = data;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'item-name-display'</span><span class="s1">).textContent = item_name || </span><span class="s7">"No Item Set"</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'auction-status'</span><span class="s1">).textContent = status.toUpperCase();</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> isHost = userId === host_id;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> userBid = bids ? (bids[userId] || </span><span class="s14">0</span><span class="s1">) : </span><span class="s14">0</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> totalBids = bids ? </span><span class="s12">Object</span><span class="s1">.keys(bids).length : </span><span class="s14">0</span><span class="s1">;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">// 1. Host Controls Visibility</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'host-controls'</span><span class="s1">).classList.toggle(</span><span class="s7">'hidden'</span><span class="s1">, !isHost);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">// 2. Main Action Card Visibility</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'bidding-interface'</span><span class="s1">).classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'closed-message'</span><span class="s1">).classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'revealed-results'</span><span class="s1">).classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'reveal-winner-btn'</span><span class="s1">).classList.add(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">// Update user's own bid display (in interface and results)</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">const</span><span class="s1"> userBidText = formatCurrency(userBid);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'your-bid-display'</span><span class="s1">).querySelector(</span><span class="s7">'span'</span><span class="s1">).textContent = userBidText;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'closed-your-bid'</span><span class="s1">).querySelector(</span><span class="s7">'span'</span><span class="s1">).textContent = userBidText;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>document.getElementById(</span><span class="s7">'revealed-your-bid'</span><span class="s1">).querySelector(</span><span class="s7">'span'</span><span class="s1">).textContent = userBidText;</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s11">if</span><span class="s1"> (status === </span><span class="s7">'open'</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'bidding-interface'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'close-auction-btn'</span><span class="s1">).classList.toggle(</span><span class="s7">'hidden'</span><span class="s1">, !isHost);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">else</span><span class="s1"> </span><span class="s11">if</span><span class="s1"> (status === </span><span class="s7">'closed'</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'closed-message'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s11">if</span><span class="s1"> (isHost) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                    </span>document.getElementById(</span><span class="s7">'reveal-winner-btn'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>} </span><span class="s11">else</span><span class="s1"> </span><span class="s11">if</span><span class="s1"> (status === </span><span class="s7">'revealed'</span><span class="s1">) {</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'revealed-results'</span><span class="s1">).classList.remove(</span><span class="s7">'hidden'</span><span class="s1">);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'winning-bid-display'</span><span class="s1">).textContent = formatCurrency(winning_bid);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'winner-id-display'</span><span class="s1">).textContent = winner_id || </span><span class="s7">"No Winner (No Bids)"</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">                </span>document.getElementById(</span><span class="s7">'total-bids-count'</span><span class="s1">).textContent = </span><span class="s7">`Total bids submitted: </span><span class="s1">${totalBids}</span><span class="s7">`</span><span class="s1">;</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">            </span>}</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// --- Event Listeners ---</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.getElementById(</span><span class="s7">'submit-bid-btn'</span><span class="s1">).addEventListener(</span><span class="s7">'click'</span><span class="s1">, submitBid);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.getElementById(</span><span class="s7">'reset-auction-btn'</span><span class="s1">).addEventListener(</span><span class="s7">'click'</span><span class="s1">, resetAuction);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.getElementById(</span><span class="s7">'close-auction-btn'</span><span class="s1">).addEventListener(</span><span class="s7">'click'</span><span class="s1">, closeAuction);</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>document.getElementById(</span><span class="s7">'reveal-winner-btn'</span><span class="s1">).addEventListener(</span><span class="s7">'click'</span><span class="s1">, revealWinner);</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p8"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s1">// Start the application</span></p>
+<p class="p5"><span class="s1"><span class="Apple-converted-space">        </span>initializeFirebase();</span></p>
+<p class="p7"><span class="s10"></span><br></p>
+<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s1">script</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
+<p class="p2"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
+</body>
+</html>
